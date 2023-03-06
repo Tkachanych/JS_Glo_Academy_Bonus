@@ -1,5 +1,12 @@
-import one  from './modules/one';
-import two from './modules/two';
+import getCard from './modules/card';
 
-one();
-two();
+const obj = {
+  name: '',
+  realName: '',
+  species: '',
+  citizenship: 'Asgardian',
+  gender: 'male',
+  status: '',
+  actors: '',
+};
+getCard(obj);
